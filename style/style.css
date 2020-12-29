@@ -111,6 +111,7 @@ input, select {
 header{
     padding:15px 0px;
     margin-bottom: 40px;
+    text-align: center;
 }
 header h1{
     font-size: 26px;
@@ -120,26 +121,10 @@ header small{
     color: #1ba12d;
 }
 
-.row-block{
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-evenly; */
-    margin-left: -15px;
-    margin-right: -15px;
-}
-.colum-lg-3, .colum-md-2{    
-    width: 100%;
-    /* padding-right: 15px;
-    padding-left: 15px; */
-}
-
 .service-block h2{
     margin-bottom: 15px;
     font-size: 19px;
     color: #fff;
-}
-.d-flex{
-    display: flex;
 }
 .service-block{
     border: 1px solid #1ba12d;
@@ -148,7 +133,6 @@ header small{
     margin-bottom: 20px;
     padding:0px  15px 15px;
     max-width: 100%;
-    display: inline-block;
 }
 
 .service-block  li{
@@ -158,6 +142,7 @@ header small{
     position: relative;
     padding-left: 20px;
     color: #ffffd7;
+    font-size: 16px;
     
 }
 .service-block .image
@@ -215,19 +200,10 @@ header small{
 
 
   .col{
-      max-width: 40%;
-      margin: 0px 0px;
-  }
-  .col.col-2{
-      margin-left:auto ;
-      margin-right:0px ;
+      max-width: 100%;
+      margin: 0px 0px 40px;
   }
 
-  
-  .col.col-3{
-    margin-left:15% ;
-    margin-right:auto ;
-}
 /************* media Qurey ***********/
 
 @media (min-width: 576px) {
@@ -235,7 +211,10 @@ header small{
         max-width: 540px; 
     } 
    
-   
+    .col{
+        max-width: 100%;
+        margin: 40px 0px 0px;
+    }
   
 }
 @media (min-width: 768px) {
@@ -243,18 +222,32 @@ header small{
         max-width: 720px; 
     } 
     
-    .colum-md-2{
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
     header h1{
         font-size: 42px;
         color: #ffffd7;
     }
-
     .col{
-        max-width: 60%;
-        margin: 40px 0px 0px;
+        max-width: 50%;
+        margin: 0px 0px 20px;
+    }
+
+    .col.col-2{
+        margin-left:auto ;
+        margin-right:0px ;
+        max-width: 40%;
+    }  
+    
+    .col.col-3{
+      margin-left:15% ;
+      margin-right:auto ;
+      max-width: 60%;
+    }
+    .service-block{
+        display: inline-block;
+    }
+    .service-block  li{
+        font-size: inherit;
+
     }
     
 
@@ -264,25 +257,60 @@ header small{
         max-width: 960px; 
     } 
     
-    .colum-lg-3{
-        flex: 0 0 33.333333%;
-        max-width: 33.333333%;
+    .col{
+        max-width: 40%;
+        margin: 0px 0px 20px;
     }
+
+    .col.col-2{
+        margin-left:auto ;
+        margin-right:0px ;
+    }  
+    
+    .col.col-3{
+      margin-left:15% ;
+      margin-right:auto ;
+  }
+  .service-block{
+      display: inline-block;
+  }
+  .service-block  li{
+      font-size: inherit;
+
+  }
 }
 @media (min-width: 1200px) {
       .container {
         max-width: 1140px; 
     } 
     
-    .colum-lg-3{
-        flex: 0 0 33.333333%;
-        max-width: 33.333333%;
-    }
-
     header h1{
         font-size: 42px;
         color: #ffffd7;
     }
+    
+    .col{
+        max-width: 40%;
+        margin: 0px 0px 20px;
+    }
+
+    .col.col-2{
+        margin-left:auto ;
+        margin-right:0px ;
+    }  
+    
+    .col.col-3{
+      margin-left:15% ;
+      margin-right:auto ;
+  }
+  .service-block{
+      display: inline-block;
+  }
+  .service-block  li{
+      font-size: inherit;
+
+  }
+
 }
 
 
