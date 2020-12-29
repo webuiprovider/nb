@@ -110,7 +110,7 @@ input, select {
 
 header{
     padding:15px 0px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 header h1{
     font-size: 26px;
@@ -147,7 +147,8 @@ header small{
     margin-right: 15px;
     margin-bottom: 20px;
     padding:0px  15px 15px;
-    width: 100%;
+    max-width: 100%;
+    display: inline-block;
 }
 
 .service-block  li{
@@ -211,6 +212,22 @@ header small{
       color: #858585;
   }
 
+
+
+  .col{
+      max-width: 40%;
+      margin: 0px 0px;
+  }
+  .col.col-2{
+      margin-left:auto ;
+      margin-right:0px ;
+  }
+
+  
+  .col.col-3{
+    margin-left:15% ;
+    margin-right:auto ;
+}
 /************* media Qurey ***********/
 
 @media (min-width: 576px) {
