@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 31/03/2020 00:54
+    Creation date: 29/12/2020 09:06
     */
 
     @font-face {
@@ -37,20 +37,18 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-accountant:before { content: "\f100"; }
-.flaticon-accounting:before { content: "\f101"; }
-.flaticon-tax:before { content: "\f102"; }
-.flaticon-wealth:before { content: "\f103"; }
-.flaticon-accounting-1:before { content: "\f104"; }
-.flaticon-loan:before { content: "\f105"; }
-.flaticon-teamwork:before { content: "\f106"; }
-.flaticon-budget:before { content: "\f107"; }
+    .flaticon-quality:before { content: "\f100"; }
+.flaticon-control-system:before { content: "\f101"; }
+.flaticon-audit:before { content: "\f102"; }
+.flaticon-web:before { content: "\f103"; }
+.flaticon-presentation:before { content: "\f104"; }
+.flaticon-presentation-1:before { content: "\f105"; }
+.flaticon-online-education:before { content: "\f106"; }
     
-    $font-Flaticon-accountant: "\f100";
-    $font-Flaticon-accounting: "\f101";
-    $font-Flaticon-tax: "\f102";
-    $font-Flaticon-wealth: "\f103";
-    $font-Flaticon-accounting-1: "\f104";
-    $font-Flaticon-loan: "\f105";
-    $font-Flaticon-teamwork: "\f106";
-    $font-Flaticon-budget: "\f107";
+    $font-Flaticon-quality: "\f100";
+    $font-Flaticon-control-system: "\f101";
+    $font-Flaticon-audit: "\f102";
+    $font-Flaticon-web: "\f103";
+    $font-Flaticon-presentation: "\f104";
+    $font-Flaticon-presentation-1: "\f105";
+    $font-Flaticon-online-education: "\f106";
