@@ -136,7 +136,7 @@ header small{
 .service-block h2{
     margin-bottom: 15px;
     font-size: 19px;
-    color: #ffffd7;
+    color: #fff;
 }
 .d-flex{
     display: flex;
@@ -156,6 +156,7 @@ header small{
     margin: 10px 0px;
     position: relative;
     padding-left: 20px;
+    color: #ffffd7;
     
 }
 .service-block .image
