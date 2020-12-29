@@ -280,7 +280,7 @@ header small{
   }
 }
 @media (min-width: 1200px) {
-      .container {
+    .container {
         max-width: 1140px; 
     } 
     
@@ -295,21 +295,21 @@ header small{
     }
 
     .col.col-2{
-        margin-left:auto ;
+        margin-left:55% ;
         margin-right:0px ;
     }  
     
     .col.col-3{
-      margin-left:15% ;
-      margin-right:auto ;
-  }
-  .service-block{
-      display: inline-block;
-  }
-  .service-block  li{
-      font-size: inherit;
+        margin-left:15% ;
+        margin-right:auto ;
+    }
+    .service-block{
+        display: inline-block;
+    }
+    .service-block  li{
+        font-size: inherit;
 
-  }
+    }
 
 }
 
